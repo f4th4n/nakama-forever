@@ -1,0 +1,9 @@
+{
+  "files": ["./main.ts"],
+  "compilerOptions": {
+    "outFile": "../modules/index.js",
+    "typeRoots": ["./node_modules"],
+    "target": "es5",
+    "skipLibCheck": true
+  }
+}
