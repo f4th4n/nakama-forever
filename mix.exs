@@ -1,9 +1,9 @@
-defmodule NakamaZeroDowntime.MixProject do
+defmodule NakamaForever.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :nakama_zero_downtime,
+      app: :nakama_forever,
       version: "0.1.0",
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
@@ -14,7 +14,7 @@ defmodule NakamaZeroDowntime.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {NakamaZeroDowntime.Application, []}
+      mod: {NakamaForever.Application, []}
     ]
   end
 

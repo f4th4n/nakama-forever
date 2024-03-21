@@ -1,8 +1,8 @@
-defmodule NakamaZeroDowntimeTest do
+defmodule NakamaForeverTest do
   use ExUnit.Case
-  doctest NakamaZeroDowntime
+  doctest NakamaForever
 
   test "greets the world" do
-    assert NakamaZeroDowntime.hello() == :world
+    assert NakamaForever.hello() == :world
   end
 end

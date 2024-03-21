@@ -1,6 +1,6 @@
-defmodule NakamaZeroDowntime do
+defmodule NakamaForever do
   @moduledoc """
-  Documentation for `NakamaZeroDowntime`.
+  Documentation for `NakamaForever`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule NakamaZeroDowntime do
 
   ## Examples
 
-      iex> NakamaZeroDowntime.hello()
+      iex> NakamaForever.hello()
       :world
 
   """

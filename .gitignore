@@ -20,10 +20,11 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-nakama_zero_downtime-*.tar
+nakama_forever-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+.elixir_ls
 
 .cookie
 node_modules
