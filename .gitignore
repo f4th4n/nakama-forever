@@ -28,3 +28,4 @@ nakama_forever-*.tar
 
 .cookie
 node_modules
+modules
