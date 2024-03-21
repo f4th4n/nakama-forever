@@ -1,11 +1,10 @@
-# NakamaForever
+# Nakama Forever
 
-**TODO: Add description**
+Nakama Forever is a centralized service written in elixir that manage multiple Nakama instances. Our goal is to achieve zero downtime deployment for the Nakama game server.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `nakama_forever` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `nakama_forever` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -14,8 +13,3 @@ def deps do
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/nakama_forever>.
-
