@@ -1,0 +1,9 @@
+{application,nakama_zero_downtime,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger]},
+              {description,"nakama_zero_downtime"},
+              {modules,['Elixir.NakamaZeroDowntime',
+                        'Elixir.NakamaZeroDowntime.Application']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.NakamaZeroDowntime.Application',[]}}]}.
