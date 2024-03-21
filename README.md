@@ -1,8 +1,8 @@
 # Nakama Forever
 
-Nakama Forever is a centralized service written in elixir that manage multiple Nakama instances. Our goal is to achieve zero downtime deployment for the Nakama game server.
+Nakama Forever is a centralized service written in Elixir that manages multiple Nakama instances. Our goal is to achieve zero-downtime deployments for the Nakama game server.
 
-## Installation
+# Installation
 
 The package can be installed by adding `nakama_forever` to your list of dependencies in `mix.exs`:
 
@@ -13,3 +13,7 @@ def deps do
   ]
 end
 ```
+
+# Usage
+
+1. 
